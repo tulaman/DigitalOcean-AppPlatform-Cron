@@ -43,8 +43,7 @@ In this tutorial, we'll guide you through the process of setting up a job schedu
 ## Prerequisites
 
 1. A DigitalOcean account ([Log in](https://cloud.digitalocean.com/login))
-2. A Cloudflare account
-3. doctl CLI([tutorial](https://docs.digitalocean.com/reference/doctl/how-to/install/))
+2. doctl CLI([tutorial](https://docs.digitalocean.com/reference/doctl/how-to/install/))
 
 # Quick / Easy version
 
