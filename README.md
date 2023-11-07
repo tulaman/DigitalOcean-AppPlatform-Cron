@@ -56,7 +56,7 @@ workers:
   github:
     branch: main
     deploy_on_push: true
-    repo: DO-Solutions/docker-cron
+    repo: <your-github-username>/docker-cron
   instance_count: 1
   instance_size_slug: basic-xxs
   name: docker-cron
@@ -69,7 +69,7 @@ workers:
 
 ## Fork docker-cron
 
-First import or fork [https://github.com/DO-Solutions/docker-cron](docker-cron) to a new Git repo on Github or Gitlab so that we can deploy our Docker Cron Worker
+First import or fork [https://github.com/DO-Solutions/docker-cron](https://github.com/DO-Solutions/docker-cron) to a new Git repo on Github or Gitlab so that we can deploy our Docker Cron Worker
 
 ## Modify `Dockerfile`
 The provided Dockerfile is used by App Platform to build and run our Cron Worker, it should be modified to your liking
@@ -169,7 +169,7 @@ workers:
   github:
     branch: main
     deploy_on_push: true
-    repo: DO-Solutions/docker-cron
+    repo: <your-github-username>/docker-cron
   instance_count: 1
   instance_size_slug: basic-xxs
   name: docker-cron
