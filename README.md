@@ -22,7 +22,7 @@
     App Platform allows you to Build, deploy, and scale apps quickly using a simple, fully-managed infrastructure solution.
     <br>This tutorial shows you how to <b>run scheduled jobs on App Platform using a Cron Worker.</b>
     <br />
-    <a href="https://docs.digitalocean.com/tutorials/app-platform/"><strong>Explore more App Platform tutorials»</strong></a>
+    <a href="https://docs.digitalocean.com/developer-center/app-platform/"><strong>Explore more App Platform tutorials in the DigitalOcean Developer Center»</strong></a>
     <br />
     <a href="https://www.digitalocean.com/product-tours/app-platform"><strong>Quick App Platform tour»</strong></a>
   
