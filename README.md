@@ -1,4 +1,9 @@
-# DigitalOcean-AppPlatform-Cron-Worker
+# DigitalOcean Functions has support for Schedules
+
+## Check out [How to Schedule Functions](https://docs.digitalocean.com/products/functions/how-to/schedule-functions/) as an alternative to this tutorial.
+
+To run [functions](https://docs.digitalocean.com/products/functions/how-to/schedule-functions/) on a schedule, you can create a function trigger and then specify a schedule using standard cron syntax.
+
 <!-- <div id="top"></div> -->
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
