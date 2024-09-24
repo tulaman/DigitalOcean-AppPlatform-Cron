@@ -83,9 +83,10 @@ The provided Dockerfile is used by App Platform to build and run our Cron Worker
 * `cron` and `curl` is installed, you can modify this line to include any other tools you may need to run your scheduled jobs
 
 ```Dockerfile
-FROM ubuntu
+FROM ubuntu:22.04
 
 RUN apt-get update \
+    && apt-get install ca-certificates -y \
     && DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install -y cron curl \
     # Remove package lists for smaller image sizes
     && rm -rf /var/lib/apt/lists/* \
